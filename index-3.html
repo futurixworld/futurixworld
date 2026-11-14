@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Futurix Technologies — imagining a smarter, more connected future through AI, software, cloud and emerging technology.">
+<meta name="theme-color" content="#061321">
+<title>Futurix Technologies | Dream Bigger. Build Smarter.</title>
+<style>
+:root{--ink:#f5fbff;--muted:#c1d2df;--cyan:#27dce8;--blue:#087df5;--navy:#061321;--line:rgba(255,255,255,.18);--glass:rgba(5,20,34,.76);--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:#061321;color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+header{position:fixed;inset:0 0 auto;z-index:20;background:rgba(4,17,31,.68);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.12)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.11em;font-size:18px}.brand-mark{width:39px;height:39px;border:2px solid var(--cyan);clip-path:polygon(50% 0,100% 100%,0 100%);display:grid;place-items:center;color:var(--cyan);font-size:17px;padding-top:9px}.brand small{display:block;font-size:9px;letter-spacing:.29em;color:#c3d8e7;margin-top:-4px}.navlinks{display:flex;align-items:center;gap:26px;font-size:13px;color:#e2edf5}.navlinks a:hover{color:var(--cyan)}.navbtn{border:1px solid rgba(39,220,232,.75);border-radius:30px;padding:10px 17px;color:#fff;font-size:13px;font-weight:750;background:rgba(0,145,255,.16)}.menu{display:none;background:transparent;border:1px solid var(--line);color:white;border-radius:8px;padding:8px 11px}
+.hero{min-height:780px;display:flex;align-items:center;position:relative;overflow:hidden;background:#09233c url('saiful-malook-hero.png') center center/cover no-repeat;padding:140px 0 160px}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,12,25,.82) 0%,rgba(2,17,32,.55) 48%,rgba(2,17,32,.08) 100%),linear-gradient(0deg,rgba(2,12,25,.8),transparent 35%,rgba(2,12,25,.22))}.hero-content{position:relative;z-index:1;max-width:720px}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#a4f7f3;font-weight:850}.hero h1{font-size:clamp(48px,7.6vw,88px);line-height:.98;letter-spacing:-.055em;margin:18px 0 20px;text-shadow:0 4px 28px #00101d}.hero h1 span{display:block;color:var(--cyan);font-style:italic}.hero p{font-size:clamp(16px,2vw,19px);color:#e1edf5;max-width:590px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:30px;padding:13px 21px;background:linear-gradient(100deg,#11cddc,#0879f5);color:white;font-weight:800;font-size:13px;box-shadow:0 9px 28px rgba(0,128,255,.22)}.btn.ghost{background:rgba(3,20,35,.4);border:1px solid rgba(255,255,255,.65);box-shadow:none}.tagline{position:absolute;right:max(4vw,calc((100vw - var(--max))/2));top:43%;font-family:Georgia,serif;font-style:italic;font-size:clamp(26px,3vw,42px);line-height:1.08;text-align:right;text-shadow:0 4px 18px #00101d;color:#fff}.tagline:after{content:"";display:block;width:125px;height:3px;background:var(--cyan);margin:12px 0 0 auto;transform:rotate(-9deg)}
+.servicebar{position:relative;margin-top:-66px;z-index:3}.servicebar-inner{display:grid;grid-template-columns:repeat(6,1fr);background:rgba(3,20,34,.88);backdrop-filter:blur(18px);border:1px solid rgba(105,226,238,.28);border-radius:18px;box-shadow:0 20px 55px rgba(0,0,0,.3);overflow:hidden}.servicebar a{padding:18px 12px;display:flex;align-items:center;justify-content:center;gap:10px;border-right:1px solid var(--line);font-size:12px;font-weight:750;text-align:left}.servicebar a:last-child{border:0}.servicebar b{font-size:22px;color:var(--cyan)}
+section{padding:88px 0}.section-head{max-width:700px;margin-bottom:34px}.section-head h2{font-size:clamp(30px,4vw,48px);line-height:1.08;letter-spacing:-.04em;margin:10px 0 14px}.section-head p,.muted{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px;border:1px solid rgba(165,214,238,.17);border-radius:16px;background:linear-gradient(145deg,rgba(19,47,69,.9),rgba(8,25,43,.92));transition:.25s}.card:hover{transform:translateY(-5px);border-color:rgba(39,220,232,.6)}.ico{width:45px;height:45px;display:grid;place-items:center;border-radius:13px;background:rgba(39,220,232,.12);color:var(--cyan);font-size:22px;margin-bottom:18px}.card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted);font-size:14px}
+.about{background:linear-gradient(120deg,#0b2034,#08182a)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.lake-card{min-height:330px;border-radius:20px;background:url('saiful-malook-hero.png') center/cover;position:relative;overflow:hidden;border:1px solid var(--line)}.lake-card:after{content:"SAIFUL MALOOK · NORTHERN PAKISTAN";position:absolute;bottom:0;left:0;right:0;padding:18px;background:linear-gradient(transparent,rgba(0,10,22,.88));font-size:11px;letter-spacing:.17em;font-weight:800}.values{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:23px}.value{padding:12px 14px;border-left:2px solid var(--cyan);background:rgba(255,255,255,.045);font-size:13px;color:#e3f1f8}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{border-top:1px solid var(--line);padding:18px 12px 0 0}.step b{color:var(--cyan);font-size:11px;letter-spacing:.15em}.step h3{margin:10px 0 5px}.step p{font-size:13px;color:var(--muted);margin:0}
+.contact-panel{padding:48px;border:1px solid rgba(39,220,232,.3);border-radius:20px;background:radial-gradient(ellipse at 85% 0,rgba(8,125,245,.25),transparent 42%),#0b2034;display:flex;align-items:center;justify-content:space-between;gap:28px}.contact-panel h2{font-size:clamp(28px,4vw,43px);line-height:1.1;margin:8px 0}.contact-panel p{color:var(--muted);max-width:650px;margin:0}.contact-panel .btn{white-space:nowrap}
+footer{border-top:1px solid var(--line);padding:25px 0;color:#a8bfd0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.foot strong{color:white}.foot a:hover{color:var(--cyan)}
+@media(max-width:900px){.navlinks{display:none}.menu{display:block}.navlinks.open{display:flex;position:absolute;top:76px;left:0;right:0;padding:20px 24px;background:#07182a;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.tagline{display:none}.servicebar-inner{grid-template-columns:repeat(3,1fr)}.servicebar a:nth-child(3){border-right:0}.servicebar a:nth-child(-n+3){border-bottom:1px solid var(--line)}.cards{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.lake-card{min-height:260px}}
+@media(max-width:560px){.wrap{width:calc(100% - 32px)}.hero{min-height:720px;padding:125px 0 145px;background-position:58% center}.hero h1{font-size:52px}.servicebar-inner{grid-template-columns:repeat(2,1fr)}.servicebar a{font-size:11px}.servicebar a:nth-child(3){border-right:1px solid var(--line)}.servicebar a:nth-child(even){border-right:0}.servicebar a:nth-child(4){border-bottom:1px solid var(--line)}.cards{grid-template-columns:1fr}.process{grid-template-columns:repeat(2,1fr)}.contact-panel{padding:28px;display:block}.contact-panel .btn{margin-top:22px}.brand{font-size:15px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="brand-mark">F</span><span>FUTURIX<small>TECHNOLOGIES</small></span></a>
+<nav class="navlinks" id="navlinks"><a href="#home">Home</a><a href="#about">About</a><a href="#solutions">Solutions⌄</a><a href="#innovation">Innovation</a><a href="#contact">Contact</a></nav>
+<a class="navbtn" href="#contact">Get Started ↗</a><button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">Menu ☰</button>
+</div></header>
+<main id="home">
+<section class="hero"><div class="wrap"><div class="hero-content">
+<div class="eyebrow">Innovating today. Transforming tomorrow.</div>
+<h1>FUTURIX <span>TECHNOLOGIES</span></h1>
+<p>Next-generation technology for a smarter, more connected world. Discover ideas at the intersection of human creativity and digital possibility.</p>
+<div class="actions"><a class="btn" href="#solutions">Explore our solutions →</a><a class="btn ghost" href="#about">Discover our vision ↗</a></div>
+</div><div class="tagline">Dream Bigger<br>Build Smarter</div></div></section>
+<div class="servicebar"><div class="wrap servicebar-inner">
+<a href="#solutions"><b>⌘</b>Artificial<br>Intelligence</a><a href="#solutions"><b>☁</b>Cloud<br>Computing</a><a href="#solutions"><b>⬡</b>Cybersecurity</a><a href="#solutions"><b>⚙</b>Robotics &<br>Automation</a><a href="#solutions"><b>〈/〉</b>Software<br>Development</a><a href="#solutions"><b>◎</b>Digital<br>Transformation</a>
+</div></div>
+<section id="solutions"><div class="wrap">
+<div class="section-head"><div class="eyebrow">What we explore</div><h2>Technology with purpose.</h2><p>From intelligent systems to secure digital infrastructure, explore the fields shaping tomorrow's connected world.</p></div>
+<div class="cards">
+<article class="card"><div class="ico">✳</div><h3>Artificial Intelligence</h3><p>Machine learning concepts, intelligent workflows, and data-informed tools designed to support better decisions.</p></article>
+<article class="card"><div class="ico">⌘</div><h3>Software Engineering</h3><p>Modern websites, application concepts, and reliable digital product experiences built around real needs.</p></article>
+<article class="card"><div class="ico">⬡</div><h3>Cybersecurity</h3><p>Security-aware design, privacy principles, and strategies for safer digital environments.</p></article>
+<article class="card"><div class="ico">☁</div><h3>Cloud Computing</h3><p>Scalable architecture concepts and connected systems for a flexible digital world.</p></article>
+<article class="card"><div class="ico">⚙</div><h3>Robotics & Automation</h3><p>Exploring automation, human-centered robotics, and the next generation of smart systems.</p></article>
+<article class="card"><div class="ico">◈</div><h3>Emerging Technology</h3><p>Researching possibilities across connected devices, immersive interfaces, and future computing.</p></article>
+</div></div></section>
+<section class="about" id="about"><div class="wrap about-grid">
+<div class="lake-card" role="img" aria-label="Saiful Malook lake and surrounding mountains in Northern Pakistan"></div>
+<div><div class="eyebrow">Our inspiration</div><h2 style="font-size:clamp(30px,4vw,46px);line-height:1.1;letter-spacing:-.04em">Inspired by nature. Driven by possibility.</h2>
+<p class="muted">Futurix Technologies is a forward-looking technology brand concept inspired by the extraordinary landscapes of Northern Pakistan. Like the mountains around Saiful Malook, we believe great things begin with a bold vision and the patience to build toward it.</p>
+<p class="muted">Our concept brings together curiosity, responsible innovation, thoughtful design, and continuous learning across the digital world.</p>
+<div class="values"><div class="value">Human-centered innovation</div><div class="value">Responsible technology</div><div class="value">Continuous learning</div><div class="value">Engineering with purpose</div></div>
+</div></div></section>
+<section id="innovation"><div class="wrap"><div class="section-head"><div class="eyebrow">How we think</div><h2>From bold idea to better possibility.</h2><p>A simple framework for turning early ideas into considered digital concepts.</p></div>
+<div class="process"><div class="step"><b>01 / DISCOVER</b><h3>Understand</h3><p>Start with people, needs, and the problem worth solving.</p></div><div class="step"><b>02 / IMAGINE</b><h3>Explore</h3><p>Research options and shape a clear, purposeful direction.</p></div><div class="step"><b>03 / CREATE</b><h3>Develop</h3><p>Prototype, test, and refine the experience with care.</p></div><div class="step"><b>04 / EVOLVE</b><h3>Improve</h3><p>Learn from feedback and keep making the work better.</p></div></div></div></section>
+<section id="contact"><div class="wrap"><div class="contact-panel"><div><div class="eyebrow">The future is a work in progress</div><h2>Let's imagine what's possible.</h2><p>Have an idea, a question, or an opportunity to collaborate? This concept website is a starting point for a future technology brand.</p></div><a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=Futurix%20Technologies%20Enquiry">Contact Futurix ↗</a></div></div></section>
+</main>
+<footer><div class="wrap foot"><span><strong>FUTURIX TECHNOLOGIES</strong> · Dream Bigger. Build Smarter.</span><span>© 2026 Futurix Technologies · Concept website for portfolio use</span></div></footer>
+<script>
+const menu=document.getElementById('menu'), links=document.getElementById('navlinks');
+menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false');}));
+</script>
+</body></html>
